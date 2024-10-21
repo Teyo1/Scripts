@@ -8,7 +8,7 @@ if (-not (Test-Path $inputFile)) {
 }
 
 # Get the output file name from the user
-$outputFile = Read-Host "Enter the name for the output file (with .txt extension)"
+$outputFile = Read-Host "Anna tiedostolle nimi ja tiedostopääte (esim .txt)"
 
 # Read the input file and process it line by line
 $lines = Get-Content $inputFile
