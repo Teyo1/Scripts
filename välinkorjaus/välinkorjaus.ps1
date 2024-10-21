@@ -36,4 +36,4 @@ foreach ($line in $lines) {
 # Write the output lines to the output file
 $outputLines | Set-Content $outputFile
 
-Write-Host "Spaces reduced successfully. Output saved to '$outputFile'."
+Write-Host "Korjattu onnistuneesti. Tiedosto on nimetty '$outputFile' ja löytyy samasta kansiosta kuin alkuperäinen tiedosto."
