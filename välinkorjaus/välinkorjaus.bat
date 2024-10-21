@@ -11,7 +11,7 @@ if not exist "%input_file%" (
 )
 
 :: Get the output file name from the user
-set /p "output_file=Enter the name for the output file (with .txt extension): "
+set /p "output_file=Anna muokatun tiedoston nimi ja tiedostomuoto esimerkiksi (.txt, .jpg, .mp3): "
 
 :: Open the input file and process it line by line
 (
@@ -37,7 +37,7 @@ set /p "output_file=Enter the name for the output file (with .txt extension): "
     )
 ) > "%output_file%"
 
-echo Spaces reduced successfully. Output saved to '%output_file%'.
+echo Korjattu onnistuneesti. Tiedosto on nimetty: '%output_file%' ja löytyy samasta kansiosta kuin alkuperäinen tiedosto.
 
 endlocal
 pause
