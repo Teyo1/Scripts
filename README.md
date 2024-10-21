@@ -27,7 +27,7 @@ This batch script calculates and verifies the MD5 and SHA256 hashes of the lates
      ```
    - Change it to:
      ```bat
-     set "download_dir=D:\Downloads"
+     set "download_dir=YourDownloadLocation"
      ```
 
 4. **Run the Script**:
