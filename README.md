@@ -21,7 +21,7 @@ This batch script calculates and verifies the MD5 and SHA256 hashes of the lates
 
 3. **Set the Download Directory**:
    - By default, the script is set to check the `C:\Users\%USERNAME%\Downloads` directory. 
-   - To change the directory to `D:\Downloads`, find the following line in the script:
+   - To change the directory to `YourDownloadLocation`, find the following line in the script:
      ```bat
      set "download_dir=C:\Users\%USERNAME%\Downloads"
      ```
