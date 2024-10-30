@@ -1,5 +1,5 @@
 # Set the input file name
-$inputFile = "kartoitus.txt"
+$inputFile = "*.gt"
 
 # Check if the input file exists
 if (-not (Test-Path $inputFile)) {
